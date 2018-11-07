@@ -1,3 +1,6 @@
+html,body{
+  min-width: 700px;
+}
 .header-color {
   background: #00416a; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -24,11 +27,12 @@
     #00416a
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
-  position: fixed;
+  /* position: fixed; */
   top: 50;
   left: 0;
   width: 100%;
-  height: 100%;
+  overflow: auto;
+  /* height: 100%; */
 }
 .avatar-img {
   height: 250px;
@@ -44,17 +48,41 @@
   border-radius: 10px;
 }
 .banner-text h1 {
-  font-size: 66px;
+  font-size: 40px;
   font-weight: bold;
   color: #000;
+  padding-top:10px;
 }
 .banner-text p {
   font-size: 15px;
   padding-bottom: 30px;
+  padding-left:10px;
 }
 .landing-desc {
   text-align: left;
   max-width: 560px;
   margin-left: auto;
   margin-right: auto;
+}
+.projects-grid{
+  margin-top:30px;
+  display: flex;
+}
+.contact-grid{
+  width: 75%;
+  margin:auto;
+  margin-top:2em;
+  text-align: center;
+}
+.contact-grid p{
+  text-align: left;
+  padding-left:10px;
+}
+.contact-grid hr{
+  border-top:4px dotted darkslategray;
+  width:50%;
+  margin:auto;
+}
+.contact-list{
+  text-align: center;
 }
