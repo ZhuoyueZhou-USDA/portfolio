@@ -8,7 +8,7 @@ import Projects from "./projects";
 import Resume from "./resume";
 
 const Main = () => (
-  <Switch>
+  <Switch style={{ height: "100%" }}>
     <Route exact path="/" component={LandingPage} />
     {/* <Route path="/aboutme" component={AboutMe} /> */}
     <Route path="/contact" component={Contact} />

@@ -6,17 +6,14 @@ class Landingpage extends Component {
 
   render() {
     return (
-      <div
-        style={{
-          width: "100%",
-          height: "100%",
-          margin: "auto",
-          textAlign: "center"
-        }}
-      >
+      <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img src={require("../img/kk_self.png")} className="avatar-img" />
+            <img
+              src={require("../img/kk_self.png")}
+              className="avatar-img"
+              alt="kiki"
+            />
             <div className="banner-text">
               <h1>Front End Developer</h1> <hr />
               <h5>
