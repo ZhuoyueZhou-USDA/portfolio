@@ -136,3 +136,12 @@ body {
   min-width: 700px;
   overflow-x: auto;
 }
+.education_block img {
+  width: 50px;
+  float: left;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.education_block {
+  padding: 15px;
+}
